@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scal=1.0">
+<link href="https://fonts.googleapis.com/css?family=Courgette|Fredoka+One|Merriweather|Quicksand|Sanchez" rel="stylesheet">
+    <title>Forms</title>
+   <link rel="stylesheet" href="css/style.css" type="text/css">
+ </head>
+  
+  <body>
+    <div id="heading"> <b>THE CODE REVIEW</b></div>
+    <div id="main-body">
+    <h2>Signup for our newsletter</h2>
+    <p class="sidehead">Get the latest news on how your code is doing right in your inbox</p><br>
+     <hr size="5px" width="90%" color="#000">
+     <hr size="3px" width="90%" color="#000" class="line"><br>
+    
+     <form method="post" action="#">
+       <legend>Contact Information</legend>
+     <fieldset>
+       <label for="firstname">Full Name</label>
+       <input type="text" name="firstname" placeholder="Requried" id="firstname">
+       <label for="email">Email Address</label>
+       <input type="email" name="email" placeholder="Requried" id="email">
+       <label for="phonenumber">Phone Number</label>
+       <input type="text" name="phonenumber" id="phonenumber">
+       <label for="address">Streest Address</label>
+       <input type="text" name="address" id="address">
+       <label for="cityname">City</label>
+       <input type="text" name="cityname" id="cityname">
+       <label>State</label>
+        <select placeholder="Choose State">
+        
+        <option value="A">Apple</option>
+        <option value="B">Banana</option>
+        <option value="C">Coconut</option>
+          </select>
+       <label for="zip">Zip Code</label>
+       <input type="text" name="zip" id="zips">
+       <br>
+       
+       <hr size="2px" color="#000">
+       
+       <h3>Newsletter</h3>
+       <p class="p1">Select the newsletter you would like to receive</p>
+       
+       
+       <input type="checkbox" name="html" value="newsletter" class="cb" checked >&nbsp;&nbsp;<p class="p2">HTML News</p>
+       <br>
+       <input type="checkbox" name="Css" value="newsletter" class="cb">&nbsp;&nbsp;<p class="p2">CSS News</p>
+       <br>
+       <input type="checkbox" name="Javascript" value="newsletter" class="cb">&nbsp;&nbsp;<p class="p2">Javascript News</p>
+       
+        <h4>Newsletter format</h4>
+       
+       <input type="radio" name="Html" class="cb" checked>&nbsp;&nbsp;<p class="p2">HTML</p>
+       <br>
+       <input type="radio" name="Plain text" class="cb">&nbsp;&nbsp;<p class="p2">Plain text</p>
+       
+       <p class="p3">Other topics you'd like to hear about</p>
+       <textarea name="comments" cols="35" rows="6"></textarea>
+       <br>
+        
+       <input type="submit" name="submit" value="Sign Up" class="sub">
+       
+      
+     </fieldset>
+       <footer><i>Copyright The Code Review</i></footer>
+</form>
+</div>
+</body>
+</html>
